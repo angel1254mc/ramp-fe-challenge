@@ -73,3 +73,4 @@ export function useCustomFetch() {
 function getCacheKey(endpoint: RegisteredEndpoints, params?: object) {
   return `${endpoint}${params ? `@${JSON.stringify(params)}` : ""}`
 }
+
